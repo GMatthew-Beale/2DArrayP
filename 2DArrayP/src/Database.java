@@ -1,6 +1,39 @@
-
+import java.util.ArrayList;
+import java.util.Collections;
 public class Database
 	{
-			int cards  [] [] = { {1,1}, {1,2}, {1,3}, {1,4}, {1,5}, {1,6}, {1,7} };
 		
+		
+	static ArrayList<String> words = new ArrayList<String>();
+	public static void addWords()
+		{
+		words.add("Dog");
+		words.add("Cat");
+		words.add("Cow");
+		words.add("Pig");
+		words.add("Rat");
+		words.add("Bat");
+		words.add("Bee");
+		words.add("Dog");
+		words.add("Cat");
+		words.add("Cow");
+		words.add("Pig");
+		words.add("Rat");
+		words.add("Bat");
+		words.add("Bee");
+
+Collections.shuffle(words);
+
+
+for (String s : words)
+	{
+		System.out.println(s);
+	}
+
+
+
+
+
+
+		}
 	}
