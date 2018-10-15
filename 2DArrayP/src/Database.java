@@ -3,7 +3,7 @@ import java.util.Collections;
 public class Database
 	{
 		
-		
+	static String answers[ ] [ ] = new String [1] [1]; 	
 	static ArrayList<String> words = new ArrayList<String>();
 	public static void addWords()
 		{
@@ -13,9 +13,9 @@ public class Database
 		words.add("Pig");
 		words.add("Rat");
 		words.add("Bat");
-		words.add("Bee");
 		words.add("Dog");
 		words.add("Cat");
+		words.add("Bee");
 		words.add("Cow");
 		words.add("Pig");
 		words.add("Rat");
@@ -25,11 +25,11 @@ public class Database
 Collections.shuffle(words);
 
 
-for (String s : words)
-	{
-		System.out.println(s);
-	}
-
+//for (String s : words)
+//	{
+//		System.out.println(s);
+//	}
+ 
 
 
 
