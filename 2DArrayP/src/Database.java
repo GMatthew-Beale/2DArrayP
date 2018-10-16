@@ -3,7 +3,9 @@ import java.util.Collections;
 public class Database
 	{
 		
-	static String answers[ ] [ ] = new String [1] [1]; 	
+	static String screen[ ] [ ] = new String [2] [7]; 	
+	static String answers[ ] [ ] = new String [2] [7]; 	
+
 	static ArrayList<String> words = new ArrayList<String>();
 	public static void addWords()
 		{
@@ -23,13 +25,15 @@ public class Database
 		words.add("Bee");
 
 Collections.shuffle(words);
-
-
-//for (String s : words)
-//	{
-//		System.out.println(s);
-//	}
- 
+int index = 0;
+for (int row = 0; row < 2; row++)
+	{
+		for (int col = 0; col < 7; col++)
+			{
+				answers [row] [col] = words.get(index);
+			}
+		index++;
+	}
 
 
 
