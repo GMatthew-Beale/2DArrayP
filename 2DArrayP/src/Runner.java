@@ -28,7 +28,7 @@ System.out.println("             B1      B2      B3      B4       B5      B6    
 
 System.out.println("Enter two of the card names Example: A1 A2");
 String firstChoice = userInput.nextLine();
-
+	
  
 
 

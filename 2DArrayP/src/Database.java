@@ -25,9 +25,9 @@ public class Database
 				words.add("Pig");
 				words.add("Rat");
 				words.add("Bat");
-				words.add("Dog");
-				words.add("Cat");
 				words.add("Bee");
+				words.add("Dog");
+				words.add("Cat");				
 				words.add("Cow");
 				words.add("Pig");
 				words.add("Rat");
